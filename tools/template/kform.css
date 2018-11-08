@@ -1,0 +1,93 @@
+
+
+/*
+Form Error styling
+*/
+
+.kformSubmitError
+{
+	padding:10px 0;
+	font-size:16px;
+	font-family:Arial;
+	border:none;
+	color:#cc0000;
+	font-weight:bold;
+}
+.kformSubmitErrorContainer
+{
+	display:block;
+}
+
+.kformInlineError
+{
+	padding:10px;
+	font-size:14px;
+	font-family:Arial;
+	border:none;
+	color:#cc0000;
+	font-weight:bold;
+}
+
+.kformErrorPop
+{
+	padding:10px 20px 10px 10px;
+	border:medium solid #cc0000;
+	color:#cc0000;
+	background:white;
+	font-size:14px;
+	font-family:Arial;
+	color:#cc0000;
+	font-weight:bold;
+}
+
+.kformErrorPopContainer
+{
+	position:absolute;z-index:10000;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.kformErrorOutline
+{
+	outline: thin solid red !important;
+}
+
+
+
+/*
+Progress bar dialog styling
+*/
+.kdialogWrap{position:absolute;z-index:2000000;top:0;left:0;width:100%;height:100%;z-index:1000;-webkit-backface-visibility: hidden;}
+.kdialogBackground{position:absolute;top:0;left:0;z-index:1;background-color:#666;opacity:0.3;width:100%;height:100%;}
+
+.kdialogContent{
+	position:absolute;
+	z-index:2000000;
+	background-color:white;
+	padding:20px;
+	border-radius:5px;
+	font-size:1em;
+	min-width:200px;
+	max-width:800px;
+	font-family:Arial;
+	max-height:80%;
+	overflow-y:auto;
+}
+
+.kdialogTitle
+{
+	font-size:20px;
+	weight-weight:bold;
+	border:1px solid #CCC;
+	border-width: 0 0 1px 0;
+	font-weight:bold;
+	margin-top:0
+
+}
+
+.kformProgressBar {width:60px;height:60px;background-image:url(../images/ajax-loader.gif);background-size:100% 100%;opacity:0.5}
+
+.kdialogXOut{width:15px;height:15px;position:absolute;top:6px;right:6px;background-image:url(../images/icon_xout.png);background-position:0 100%;background-size:100% 200%;}
+.kdialogXOut:hover{background-position:0 0;cursor:pointer;cursor:hand;}
+
+.kdialogConfirmOptions{text-align:center;margin:20px;}
+.kdialogConfirmOptions input{margin-right:20px;}
